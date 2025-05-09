@@ -16,3 +16,4 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
 3. Classes e objetos
   - Aula 3.2 - Definindo a primeira classe
   - Aula 3.3 - Definindo atributos para uma classe
+  - Aula 3.4 - Definindo os primeiros métodos
