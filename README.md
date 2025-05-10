@@ -29,7 +29,13 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
   - Desafio de Código 4.2
 
 5. Herança
-  - Aplicando herança em exceções
-  - Visibilidade a nível de pacote
-  - Criando construtores personalidados
-
+  - Aula 5.2 - Aplicando herança em exceções
+  - Aula 5.3 - Visibilidade a nível de pacote
+  - Aula 5.4 - Criando construtores personalidados
+  - Aula 5.5 - Entendo o processo de serialização e desserialização e o SERIAL VERSION ID
+    - para gerar serialVersionUID, no dir que contenha .class e executar serialver PACKAGE.classe. Exemplo:
+    ```
+    cd .bin/
+    serialver br.com.ralph.tw.excecoes.ChassiInvalidoException
+    ```
+  
