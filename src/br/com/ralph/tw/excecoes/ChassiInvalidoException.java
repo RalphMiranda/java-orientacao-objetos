@@ -1,5 +1,5 @@
 package br.com.ralph.tw.excecoes;
 
-class ChassiInvalidoException extends Exception {
+public class ChassiInvalidoException extends Exception {
 
 }

@@ -30,3 +30,5 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
 
 5. Herança
   - Aplicando herança em exceções
+  - Visibilidade a nível de pacote
+  
