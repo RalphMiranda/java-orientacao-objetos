@@ -18,10 +18,11 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
   - Aula 3.3 - Definindo atributos para uma classe
   - Aula 3.4 - Definindo os primeiros métodos
   - Aula 3.5 - Entendo e utilizando objetos
-  - Desafio 3.1
-  - Desafio 3.2
+  - Desafio de código 3.1
+  - Desafio de código 3.2
 
 4. Ensapsulamento
   - 4.7 - Visibilidade private, métodos acessores e o padrão POJO
   - 4.8 - Utilizando o encapsulamento de maneira correta e prática
   - 4.12 - Criando setters mais inteligentes
+  - Desafio de código 4.1
