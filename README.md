@@ -26,3 +26,4 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
   - 4.8 - Utilizando o encapsulamento de maneira correta e prática
   - 4.12 - Criando setters mais inteligentes
   - Desafio de código 4.1
+  - Desafio de Código 4.2

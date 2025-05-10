@@ -15,7 +15,7 @@ Você não será responsável pela saída.
 Obs: Devido a limitações do Java, a classe definida não pode ser pública. */
 public class Desafio4_1 {
     public static void main(String[] args) {
-        Curso curso = new Curso();
+        Curso41 curso = new Curso41();
         
         curso.setNome("Java - Orientação a objetos");
         curso.setDescricao("Compreenda como os conceitos de orientação a objetos são aplicados na linguagem Java");
@@ -25,7 +25,7 @@ public class Desafio4_1 {
     }
 }
 
-class Curso {
+class Curso41 {
     private String descricao;
 
     private String nome;
