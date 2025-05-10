@@ -1,6 +1,4 @@
-package br.com.ralph.desafios;
-
-import java.util.Arrays;
+package br.com.ralph.tw.desafios;
 
 /*Defina uma classe chamada Curso() e que contenha os atributos textuais encapsulados descricao e nome.
 

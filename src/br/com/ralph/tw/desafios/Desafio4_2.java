@@ -1,6 +1,5 @@
-package br.com.ralph.desafios;
+package br.com.ralph.tw.desafios;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 import javax.management.InvalidAttributeValueException;

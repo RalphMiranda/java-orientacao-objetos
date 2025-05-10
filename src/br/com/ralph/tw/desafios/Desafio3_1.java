@@ -1,4 +1,4 @@
-package br.com.ralph.desafios;
+package br.com.ralph.tw.desafios;
 
 /* Defina uma classe chamada PrimeiraClasse(), que contenha um método chamado ola() que exibe no console a mensagem:
 

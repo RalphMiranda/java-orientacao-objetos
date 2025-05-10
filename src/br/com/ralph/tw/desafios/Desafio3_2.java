@@ -1,4 +1,4 @@
-package br.com.ralph.desafios;
+package br.com.ralph.tw.desafios;
 
 /* Defina uma classe chamada PrimeiraClasse() e que contenha os atributos textuais descricao e curso.
 
