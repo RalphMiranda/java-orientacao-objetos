@@ -24,3 +24,4 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
 4. Ensapsulamento
   - 4.7 - Visibilidade private, métodos acessores e o padrão POJO
   - 4.8 - Utilizando o encapsulamento de maneira correta e prática
+  - 4.12 - Criando setters mais inteligentes
