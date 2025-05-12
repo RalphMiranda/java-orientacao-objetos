@@ -14,6 +14,7 @@ public class Main {
             veiculo1.setChassi("ABCDE");
             System.out.println(veiculo1.getNome());
             System.out.println(veiculo1.getQuantidadeCombustivel());
+            System.out.println(veiculo1.getQuantidadeRodas());
             veiculo1.ligar();
             
             System.out.println("\n --- \n");

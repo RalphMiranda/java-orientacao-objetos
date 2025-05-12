@@ -39,4 +39,4 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
     serialver br.com.ralph.tw.excecoes.ChassiInvalidoException
     ```
   - Aula 5.6 - Um pouco mais de herança
-  
+  - Aula 5.7 - Entendendo a visibilidade protected
