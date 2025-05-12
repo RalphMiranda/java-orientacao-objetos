@@ -18,14 +18,25 @@ public class Main {
             veiculo1.ligar();
             
             System.out.println("\n --- \n");
-
-            Veiculo veiculo2 = new Veiculo();
-            veiculo2.setNome("Fiesta");
-            veiculo2.setMarca("Ford");
-            veiculo1.setChassi("ABCD");
+            
+            Carro veiculo2 = new Carro("Gol", "VW");
+            veiculo2.abastecer(16);
+            veiculo2.setChassi("FGHIJ");
             System.out.println(veiculo2.getNome());
             System.out.println(veiculo2.getQuantidadeCombustivel());
+            System.out.println(veiculo2.getQuantidadeRodas());
             veiculo2.ligar();
+            
+            System.out.println("\n --- \n");
+
+            Veiculo veiculo3 = new Veiculo();
+            veiculo3.setNome("Fiesta");
+            veiculo3.setMarca("Ford");
+            veiculo1.setChassi("ABCD");
+            System.out.println(veiculo3.getNome());
+            System.out.println(veiculo3.getQuantidadeCombustivel());
+            veiculo3.ligar();
+            
         } catch (Exception e) {
             System.out.println(String.format("** Ocorreu um erro: %s", e.getMessage()));
         }
