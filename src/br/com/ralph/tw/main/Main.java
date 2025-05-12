@@ -1,6 +1,7 @@
 package br.com.ralph.tw.main;
 
 import br.com.ralph.tw.classes.Carro;
+import br.com.ralph.tw.classes.Moto;
 import br.com.ralph.tw.classes.Veiculo;
 
 public class Main {
@@ -22,12 +23,17 @@ public class Main {
             Carro veiculo2 = new Carro("Gol", "VW");
             veiculo2.abastecer(16);
             veiculo2.setChassi("FGHIJ");
+            veiculo2.setQuantidadePortas(4);
             System.out.println(veiculo2.getNome());
             System.out.println(veiculo2.getQuantidadeCombustivel());
             System.out.println(veiculo2.getQuantidadeRodas());
             System.out.println(String.format("O veículo está ligado? %b", veiculo2.isLigado()));
             
             System.out.println("\n --- \n");
+
+            Moto moto1 = new Moto();
+            moto1.setNome("Fazer");
+            moto1.setMarca("Yamaha");
 
             Veiculo veiculo3 = new Veiculo();
             veiculo3.setNome("Fiesta");
