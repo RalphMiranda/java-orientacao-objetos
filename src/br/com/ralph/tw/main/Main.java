@@ -1,12 +1,13 @@
 package br.com.ralph.tw.main;
 
+import br.com.ralph.tw.classes.Carro;
 import br.com.ralph.tw.classes.Veiculo;
 
 public class Main {
     public static void main(String[] args) throws Exception {
 
         try {
-            Veiculo veiculo1 = new Veiculo();
+            Carro veiculo1 = new Carro();
             veiculo1.setNome("Corsa");
             veiculo1.setMarca("GM");
             veiculo1.abastecer(15);

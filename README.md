@@ -38,4 +38,5 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
     cd .bin/
     serialver br.com.ralph.tw.excecoes.ChassiInvalidoException
     ```
+  - Aula 5.6 - Um pouco mais de herança
   
