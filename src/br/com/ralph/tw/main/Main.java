@@ -32,13 +32,26 @@ public class Main {
             System.out.println(String.format("O veículo está ligado? %b", veiculo2.isLigado()));
             veiculo2.ligar();
             System.out.println(String.format("O veículo está ligado? %b", veiculo2.isLigado()));
-            veiculo2.abastecer(4);
+            System.out.println(String.format("Velocidade: %f",veiculo2.getVelocidade()));
+            veiculo2.acelerar();
+            System.out.println(String.format("Velocidade: %f",veiculo2.getVelocidade()));
+            veiculo2.frear();
+            System.out.println(String.format("Velocidade: %f",veiculo2.getVelocidade()));
             
             System.out.println("\n --- \n");
 
             Moto moto1 = new Moto();
             moto1.setNome("Fazer");
             moto1.setMarca("Yamaha");
+
+            System.out.println("\n --- \n");
+
+            Veiculo moto2 = new Moto("Ninja", "Kawazaki");
+            System.out.println(moto2.getNome());
+            System.out.println(moto2.getQuantidadeRodas());
+            System.out.println(String.format("O veículo está ligado? %b", moto2.isLigado()));
+            moto2.frear();
+            System.out.println(String.format("Velocidade: %f",moto2.getVelocidade()));
 
             Veiculo veiculo3 = new Veiculo();
             veiculo3.setNome("Fiesta");

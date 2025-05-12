@@ -1,7 +1,9 @@
 package br.com.ralph.tw.classes;
 
 import br.com.ralph.tw.excecoes.AbastecimentoVeiculoLigadoException;
+import br.com.ralph.tw.excecoes.AceleracaoVeiculoDesligadoException;
 import br.com.ralph.tw.excecoes.ChassiInvalidoException;
+import br.com.ralph.tw.excecoes.FrenagemVeiculoDesligadoException;
 
 public class Veiculo {
 
@@ -11,6 +13,7 @@ public class Veiculo {
     protected int quantidadeRodas;
     private float quantidadeCombustivel;
     private boolean ligado;
+    protected float velocidade;
 
     public Veiculo() {
         this.ligado = false;
@@ -31,6 +34,20 @@ public class Veiculo {
             quantidadeCombustivel += litros;
         else 
             throw new AbastecimentoVeiculoLigadoException();
+    }
+
+    public float acelerar() throws AceleracaoVeiculoDesligadoException {
+        if (ligado)
+            return velocidade += 10;
+        else
+            throw new AceleracaoVeiculoDesligadoException();
+    }
+
+    public float frear() throws FrenagemVeiculoDesligadoException {
+        if (ligado)
+            return velocidade -= 10;
+        else
+            throw new FrenagemVeiculoDesligadoException();
     }
 
     public String getNome() {
@@ -71,4 +88,13 @@ public class Veiculo {
     public boolean isLigado() {
         return ligado;
     }
+
+    public float getVelocidade() {
+        return velocidade;
+    }
+
+    public void setVelocidade(float velocidade) {
+        this.velocidade = velocidade;
+    }
+    
 }
