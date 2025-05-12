@@ -25,7 +25,7 @@ public class Main {
             System.out.println(veiculo2.getNome());
             System.out.println(veiculo2.getQuantidadeCombustivel());
             System.out.println(veiculo2.getQuantidadeRodas());
-            veiculo2.ligar();
+            System.out.println(String.format("O veículo está ligado? %b", veiculo2.isLigado()));
             
             System.out.println("\n --- \n");
 

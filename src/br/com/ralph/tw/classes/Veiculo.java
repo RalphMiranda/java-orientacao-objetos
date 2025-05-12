@@ -9,12 +9,15 @@ public class Veiculo {
     private String chassi;
     protected int quantidadeRodas;
     private float quantidadeCombustivel;
+    private boolean ligado;
 
     public void ligar() {
+        ligado = true;
         System.out.println("O veículo ligou!");
     }
 
     public void desligar() {
+        ligado = false;
         System.out.println("O veículo desligou!");
     }
 
@@ -55,5 +58,9 @@ public class Veiculo {
 
     public float getQuantidadeCombustivel() {
         return quantidadeCombustivel;
+    }
+
+    public boolean isLigado() {
+        return ligado;
     }
 }

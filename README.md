@@ -41,3 +41,5 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
   - Aula 5.6 - Um pouco mais de herança
   - Aula 5.7 - Entendendo a visibilidade protected
   - Aula 5.8 - Entendendo os conceitos de sobrecarga e assinatura
+  - Aula 5.9 - Herança múltipla vs herança simples
+  - Aula 5.10 - Encadeando construtores
