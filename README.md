@@ -44,3 +44,4 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
   - Aula 5.9 - Herança múltipla vs herança simples
   - Aula 5.10 - Encadeando construtores
   - Aula 5.11 - Definindo atributos específicos para as subclasses
+  - Aula 5.12 - Liskov Substitution Principle e o polimorfismo

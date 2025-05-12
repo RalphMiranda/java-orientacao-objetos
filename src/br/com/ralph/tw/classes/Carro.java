@@ -21,5 +21,5 @@ public class Carro extends Veiculo {
     public void setQuantidadePortas(int quantidadePortas) {
         this.quantidadePortas = quantidadePortas;
     }
-        
+
 }

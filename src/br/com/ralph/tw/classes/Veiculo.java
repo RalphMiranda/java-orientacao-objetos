@@ -1,5 +1,6 @@
 package br.com.ralph.tw.classes;
 
+import br.com.ralph.tw.excecoes.AbastecimentoVeiculoLigadoException;
 import br.com.ralph.tw.excecoes.ChassiInvalidoException;
 
 public class Veiculo {
@@ -11,6 +12,10 @@ public class Veiculo {
     private float quantidadeCombustivel;
     private boolean ligado;
 
+    public Veiculo() {
+        this.ligado = false;
+    }
+
     public void ligar() {
         ligado = true;
         System.out.println("O veículo ligou!");
@@ -21,8 +26,11 @@ public class Veiculo {
         System.out.println("O veículo desligou!");
     }
 
-    public void abastecer(float litros) {
-        quantidadeCombustivel += litros;
+    public void abastecer(float litros) throws AbastecimentoVeiculoLigadoException {
+        if (!ligado)
+            quantidadeCombustivel += litros;
+        else 
+            throw new AbastecimentoVeiculoLigadoException();
     }
 
     public String getNome() {
