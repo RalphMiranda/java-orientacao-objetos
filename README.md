@@ -36,7 +36,7 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
     - para gerar serialVersionUID, no dir que contenha .class e executar serialver PACKAGE.classe. Exemplo:
     ```
     cd .bin/
-    serialver br.com.ralph.tw.excecoes.ChassiInvalidoException
+    serialver br.com.ralph.tw.joo.excecoes.ChassiInvalidoException
     ```
   - Aula 5.6 - Um pouco mais de herança
   - Aula 5.7 - Entendendo a visibilidade protected
