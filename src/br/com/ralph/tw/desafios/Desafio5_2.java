@@ -21,8 +21,7 @@ public class Desafio5_2 {
         Carro carro = new Carro();
         
         Scanner scann = new Scanner(System.in);
-        while(scann.hasNextLine())
-        {
+        while(scann.hasNextLine()) {
             carro.setNome(scann.nextLine());
             carro.setTipo(scann.nextLine());
             
