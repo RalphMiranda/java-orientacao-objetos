@@ -3,7 +3,7 @@ package br.com.ralph.tw.classes;
 import br.com.ralph.tw.excecoes.AceleracaoVeiculoDesligadoException;
 import br.com.ralph.tw.excecoes.FrenagemVeiculoDesligadoException;
 
-public class Moto extends Veiculo {
+public final class Moto extends Veiculo {
 
     public Moto() {
         this.quantidadeRodas = 2;

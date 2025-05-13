@@ -19,17 +19,17 @@ public class Veiculo {
         this.ligado = false;
     }
 
-    public void ligar() {
+    public final void ligar() {
         ligado = true;
         System.out.println("O veículo ligou!");
     }
 
-    public void desligar() {
+    public final void desligar() {
         ligado = false;
         System.out.println("O veículo desligou!");
     }
 
-    public void abastecer(float litros) throws AbastecimentoVeiculoLigadoException {
+    public final void abastecer(float litros) throws AbastecimentoVeiculoLigadoException {
         if (!ligado)
             quantidadeCombustivel += litros;
         else 
