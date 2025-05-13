@@ -5,7 +5,7 @@ import br.com.ralph.tw.excecoes.AceleracaoVeiculoDesligadoException;
 import br.com.ralph.tw.excecoes.ChassiInvalidoException;
 import br.com.ralph.tw.excecoes.FrenagemVeiculoDesligadoException;
 
-public class Veiculo {
+public abstract class Veiculo {
 
     private String nome;
     private String marca;

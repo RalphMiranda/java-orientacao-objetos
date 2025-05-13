@@ -47,3 +47,4 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
   - Aula 5.12 - Liskov Substitution Principle e o polimorfismo
   - Aula 5.13 - Sobrescrevendo métodos
   - Aula 5.14 - A palavra final
+  - Aula 5.15 - Definindo classes abstratas
