@@ -24,6 +24,8 @@ public class Desafio6_1 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         System.out.println(calculadora.divisao_soma(n));
+
+        scanner.close();
     }
 }
 
