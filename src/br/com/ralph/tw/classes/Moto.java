@@ -16,18 +16,18 @@ public final class Moto extends Veiculo {
     }
 
     @Override
-    public float acelerar() throws AceleracaoVeiculoDesligadoException {
+    public void acelerar() throws AceleracaoVeiculoDesligadoException {
         if (this.isLigado())
-            return velocidade += 15;
+            velocidade += 15;
         else
             throw new AceleracaoVeiculoDesligadoException();
     }
 
     @Override
-    public float frear() throws FrenagemVeiculoDesligadoException {
-        if (this.isLigado())
-            return velocidade -= 15;
-        else
+    public void frear() throws FrenagemVeiculoDesligadoException {
+        if (this.isLigado()) {
+            velocidade = velocidade - 15 <= 0f ? 0f : velocidade - 15;
+        } else
             throw new FrenagemVeiculoDesligadoException();
     }
 

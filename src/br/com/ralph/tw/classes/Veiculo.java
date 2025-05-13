@@ -36,17 +36,17 @@ public abstract class Veiculo {
             throw new AbastecimentoVeiculoLigadoException();
     }
 
-    public float acelerar() throws AceleracaoVeiculoDesligadoException {
+    public void acelerar() throws AceleracaoVeiculoDesligadoException {
         if (ligado)
-            return velocidade += 10;
+            velocidade += 10;
         else
             throw new AceleracaoVeiculoDesligadoException();
     }
 
-    public float frear() throws FrenagemVeiculoDesligadoException {
-        if (ligado)
-            return velocidade -= 10;
-        else
+    public void frear() throws FrenagemVeiculoDesligadoException {
+        if (ligado) {
+            velocidade = velocidade - 10 <= 0f ? 0f : velocidade - 10;
+        } else
             throw new FrenagemVeiculoDesligadoException();
     }
 
@@ -93,10 +93,6 @@ public abstract class Veiculo {
 
     public float getVelocidade() {
         return velocidade;
-    }
-
-    public void setVelocidade(float velocidade) {
-        this.velocidade = velocidade;
     }
     
 }
