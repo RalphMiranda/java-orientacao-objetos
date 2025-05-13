@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo3.d1;
 
 /* Defina uma classe chamada PrimeiraClasse(), que contenha um método chamado ola() que exibe no console a mensagem:
 
@@ -11,7 +11,7 @@ Saída esperada
 
 Bem-vindo a orientação à objetos
 Obs: Devido a limitações do Java, a classe definida não pode ser pública. */
-public class Desafio3_1 {
+public class Desafio {
     public static void main(String[] args) {
         PrimeiraClasse primeiraClasse = new PrimeiraClasse();
         primeiraClasse.ola();

@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo4.d2;
 
 import java.util.Scanner;
 
@@ -17,10 +17,10 @@ Saída esperada
 Você não será responsável pela saída.
 
 Obs: Devido a limitações do Java, a classe definida não pode ser pública. */
-public class Desafio4_2 {
+public class Desafio {
 
     public static void main(String[] args) {
-        Curso42 curso = new Curso42();
+        Curso curso = new Curso();
         
         Scanner scan = new Scanner(System.in);
         while(scan.hasNextLine()) {
@@ -43,7 +43,7 @@ public class Desafio4_2 {
     }
 }
 
-class Curso42 {
+class Curso {
     private String descricao;
 
     private String nome;

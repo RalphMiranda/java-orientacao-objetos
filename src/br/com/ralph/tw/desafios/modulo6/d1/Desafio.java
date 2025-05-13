@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo6.d1;
 
 import java.util.Scanner;
 
@@ -14,11 +14,11 @@ Saída esperada
 Implementei: Artimetica
 12
  */
-public class Desafio6_1 {
+public class Desafio {
 
     public static void main(String[] args) {
 
-        Calculadora61 calculadora = new Calculadora61();
+        Calculadora calculadora = new Calculadora();
         System.out.println("Implementei: Aritmetica");
 
         Scanner scanner = new Scanner(System.in);
@@ -29,11 +29,11 @@ public class Desafio6_1 {
     }
 }
 
-interface Aritmetica61 {
+interface Aritmetica {
     int divisao_soma(int n);
 }
 
-class Calculadora61 implements Aritmetica61 {
+class Calculadora implements Aritmetica {
 
     @Override
     public int divisao_soma(int n) {

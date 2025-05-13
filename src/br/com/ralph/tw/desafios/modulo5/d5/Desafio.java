@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo5.d5;
 
 /* Informe abaixo uma classe chamada Moto, que sobrescreva o método getTipo da superclasse e retorne "Classe do tipo Moto".
 
@@ -8,17 +8,17 @@ Não há nenhuma entrada
 
 Saída esperada
 
-"Classe do tipo Moto"
+"Classe do tipo Carro"
 
 Obs: Devido a limitações do Java, a classe definida não pode ser pública. */
-public class Desafio5_4 {
+public class Desafio {
     public static void main(String[] args) {
-        Veiculo54 veiculo = new Moto();
+        Veiculo veiculo = new Carro();
         System.out.println(veiculo.getTipo());
     }
 }
 
-class Veiculo54 {
+class Veiculo {
     private String nome;
 
     private String tipo;
@@ -40,9 +40,9 @@ class Veiculo54 {
     }
 }
 
-class Moto extends Veiculo54 {
+class Carro extends Veiculo {
     @Override
     public String getTipo() {
-        return "Classe do tipo Moto";
+        return "Classe do tipo Carro";
     }
 }

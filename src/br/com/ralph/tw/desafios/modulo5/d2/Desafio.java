@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo5.d2;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ tipo
 Corsa
 Sedan
 Obs: Devido a limitações do Java, a classe definida não pode ser pública. */
-public class Desafio5_2 {
+public class Desafio {
     public static void main(String[] args) {
         
         Carro carro = new Carro();
@@ -55,4 +55,3 @@ class Carro extends Veiculo {
         this.tipo = tipo;
     }
 }
-

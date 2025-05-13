@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo5.d3;
 
 import java.util.Scanner;
 
@@ -15,11 +15,11 @@ tipo
 Corsa
 Sedan
 Obs: Devido a limitações do Java, a classe definida não pode ser pública. */
-public class Desafio5_3 {
+public class Desafio {
     public static void main(String[] args) {
         Scanner scann = new Scanner(System.in);
         while(scann.hasNextLine()) {
-            Veiculo53 veiculo = new Veiculo53(scann.nextLine());
+            Veiculo veiculo = new Veiculo(scann.nextLine());
             
             veiculo.setNome(scann.nextLine());
             
@@ -30,12 +30,12 @@ public class Desafio5_3 {
     }
 }
 
-class Veiculo53 {
+class Veiculo {
     private String nome;
     
     private String tipo;
 
-    public Veiculo53(String tipo) {
+    public Veiculo(String tipo) {
         this.tipo = tipo;
     }
 

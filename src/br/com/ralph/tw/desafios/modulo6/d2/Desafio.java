@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo6.d2;
 
 /* Dado uma interface Veiculo, que declara o método showTipo, defina duas classes, uma chamada Carro, 
 que implementa o método da interface e exiba a mensagem "Carro" e outra chamada Moto, que implementa 
@@ -12,26 +12,26 @@ Saída esperada
 
 Carro
 Moto */
-public class Desafio6_2 {
+public class Desafio {
 
     public static void main(String[] args) {
         
-        Veiculo62 veiculo = new Carro62();
+        Veiculo veiculo = new Carro();
         
         veiculo.showTipo();
 
-        veiculo = new Moto62();
+        veiculo = new Moto();
 
         veiculo.showTipo();
     }
 
 }
 
-interface Veiculo62 {
+interface Veiculo {
     void showTipo();
 }
 
-class Carro62 implements Veiculo62 {
+class Carro implements Veiculo {
     
     @Override
     public void showTipo() {
@@ -39,7 +39,7 @@ class Carro62 implements Veiculo62 {
     }
 }
 
-class Moto62 implements Veiculo62 {
+class Moto implements Veiculo {
 
     @Override
     public void showTipo() {

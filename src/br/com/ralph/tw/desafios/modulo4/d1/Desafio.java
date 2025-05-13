@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo4.d1;
 
 /*Defina uma classe chamada Curso() e que contenha os atributos textuais encapsulados descricao e nome.
 
@@ -11,9 +11,9 @@ Saída esperada
 Você não será responsável pela saída.
 
 Obs: Devido a limitações do Java, a classe definida não pode ser pública. */
-public class Desafio4_1 {
+public class Desafio {
     public static void main(String[] args) {
-        Curso41 curso = new Curso41();
+        Curso curso = new Curso();
         
         curso.setNome("Java - Orientação a objetos");
         curso.setDescricao("Compreenda como os conceitos de orientação a objetos são aplicados na linguagem Java");
@@ -23,7 +23,8 @@ public class Desafio4_1 {
     }
 }
 
-class Curso41 {
+class Curso
+ {
     private String descricao;
 
     private String nome;
@@ -44,5 +45,4 @@ class Curso41 {
         this.nome = nome;
     }
 
-    
 }

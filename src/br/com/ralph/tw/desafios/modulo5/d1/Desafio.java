@@ -1,4 +1,4 @@
-package br.com.ralph.tw.desafios;
+package br.com.ralph.tw.desafios.modulo5.d1;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ Saída esperada
 10
 54
 Obs: Devido a limitações do Java, as classes definidas não podem ser públicas */
-public class Desafio5_1 {
+public class Desafio {
     public static void main(String[] args) {
         Aritmetica a = new Sub();	
         
