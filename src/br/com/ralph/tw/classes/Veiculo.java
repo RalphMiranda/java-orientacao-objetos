@@ -4,8 +4,9 @@ import br.com.ralph.tw.excecoes.AbastecimentoVeiculoLigadoException;
 import br.com.ralph.tw.excecoes.AceleracaoVeiculoDesligadoException;
 import br.com.ralph.tw.excecoes.ChassiInvalidoException;
 import br.com.ralph.tw.excecoes.FrenagemVeiculoDesligadoException;
+import br.com.ralph.tw.interfaces.VeiculoInterface;
 
-public abstract class Veiculo {
+public abstract class Veiculo implements VeiculoInterface {
 
     private String nome;
     private String marca;
