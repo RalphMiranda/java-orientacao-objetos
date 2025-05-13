@@ -58,3 +58,4 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
 
 6. Interfaces
   - Aula 6.5 - Entendendo e utilizando interfaces - parte 1
+  - Aula 6.5 - Entendendo e utilizando interfaces - parte 2

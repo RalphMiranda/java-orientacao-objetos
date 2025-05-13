@@ -2,7 +2,7 @@ package br.com.ralph.tw.main;
 
 import br.com.ralph.tw.classes.Carro;
 import br.com.ralph.tw.classes.Moto;
-import br.com.ralph.tw.classes.Veiculo;
+import br.com.ralph.tw.classes.VeiculoBase;
 import br.com.ralph.tw.excecoes.AbastecimentoVeiculoLigadoException;
 import br.com.ralph.tw.excecoes.ChassiInvalidoException;
 
@@ -22,7 +22,7 @@ public class Main {
             
             System.out.println("\n --- \n");
             
-            Veiculo veiculo2 = new Carro("Gol", "VW");
+            VeiculoBase veiculo2 = new Carro("Gol", "VW");
             veiculo2.abastecer(16);
             veiculo2.setChassi("FGHIJ");
             ((Carro)veiculo2).setQuantidadePortas(4);
@@ -47,7 +47,7 @@ public class Main {
 
             System.out.println("\n --- \n");
 
-            Veiculo moto2 = new Moto("Ninja", "Kawazaki");
+            VeiculoBase moto2 = new Moto("Ninja", "Kawazaki");
             System.out.println(moto2.getNome());
             System.out.println(moto2.getQuantidadeRodas());
             System.out.println(String.format("O veículo está ligado? %b", moto2.isLigado()));
@@ -59,7 +59,7 @@ public class Main {
             System.out.println("\n --- \n");
 
             //Veiculo veiculo3 = new Veiculo();
-            Veiculo veiculo3 = new Carro();
+            VeiculoBase veiculo3 = new Carro();
             veiculo3.setNome("Fiesta");
             veiculo3.setMarca("Ford");
             System.out.println(veiculo3.getNome());

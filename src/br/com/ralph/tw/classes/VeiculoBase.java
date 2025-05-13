@@ -4,9 +4,11 @@ import br.com.ralph.tw.excecoes.AbastecimentoVeiculoLigadoException;
 import br.com.ralph.tw.excecoes.AceleracaoVeiculoDesligadoException;
 import br.com.ralph.tw.excecoes.ChassiInvalidoException;
 import br.com.ralph.tw.excecoes.FrenagemVeiculoDesligadoException;
-import br.com.ralph.tw.interfaces.VeiculoInterface;
+import br.com.ralph.tw.interfaces.Andador;
+import br.com.ralph.tw.interfaces.Ligador;
+import br.com.ralph.tw.interfaces.Veiculo;
 
-public abstract class Veiculo implements VeiculoInterface {
+public abstract class VeiculoBase implements Veiculo, Andador, Ligador {
 
     private String nome;
     private String marca;
@@ -16,7 +18,7 @@ public abstract class Veiculo implements VeiculoInterface {
     private boolean ligado;
     protected float velocidade;
 
-    public Veiculo() {
+    public VeiculoBase() {
         this.ligado = false;
     }
 
