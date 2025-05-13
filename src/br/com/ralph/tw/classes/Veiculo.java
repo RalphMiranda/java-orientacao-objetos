@@ -50,6 +50,8 @@ public abstract class Veiculo {
             throw new FrenagemVeiculoDesligadoException();
     }
 
+    public abstract void preparar();
+
     public String getNome() {
         return nome;
     }

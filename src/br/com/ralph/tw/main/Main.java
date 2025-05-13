@@ -29,6 +29,7 @@ public class Main {
             System.out.println(veiculo2.getNome());
             System.out.println(veiculo2.getQuantidadeCombustivel());
             System.out.println(veiculo2.getQuantidadeRodas());
+            veiculo2.preparar();
             System.out.println(String.format("O veículo está ligado? %b", veiculo2.isLigado()));
             veiculo2.ligar();
             System.out.println(String.format("O veículo está ligado? %b", veiculo2.isLigado()));
@@ -50,15 +51,20 @@ public class Main {
             System.out.println(moto2.getNome());
             System.out.println(moto2.getQuantidadeRodas());
             System.out.println(String.format("O veículo está ligado? %b", moto2.isLigado()));
+            moto2.preparar();
+            moto2.ligar();
             moto2.frear();
             System.out.println(String.format("Velocidade: %f",moto2.getVelocidade()));
 
-            Veiculo veiculo3 = new Veiculo();
+            System.out.println("\n --- \n");
+
+            //Veiculo veiculo3 = new Veiculo();
+            Veiculo veiculo3 = new Carro();
             veiculo3.setNome("Fiesta");
             veiculo3.setMarca("Ford");
-            // veiculo1.setChassi("ABCD");
             System.out.println(veiculo3.getNome());
             System.out.println(veiculo3.getQuantidadeCombustivel());
+            veiculo1.setChassi("ABCD");
             veiculo3.ligar();
             
         } catch (ChassiInvalidoException cie) {
