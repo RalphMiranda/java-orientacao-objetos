@@ -52,3 +52,6 @@ Por paradigma, podemos entender como sendo uma "maneira de pensar" e de "organiz
   - Aula 5.17 - Herança e a representação na UML
   - Desafio de código 5.1
   - Desafio de código 5.2
+  - Desafio de código 5.3
+  - Desafio de código 5.4
+  - Desafio de código 5.5
